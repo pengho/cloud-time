@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <header>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.js"></script>
+  </header>
+  
+  <body>
+    <!-- add ng-app="" to this div  -->
+    <div ng-app="">
+      Notice how Angular takes away the curly braces.<br>
+      Magic Trick - Where's my curly braces?! <b>{{}}</b><br>Not here apparently.<br>
+      This means that Angular is working.
+    </div>
+    {{not angularjs enabled!}}
+  </body>
+
+</html>
